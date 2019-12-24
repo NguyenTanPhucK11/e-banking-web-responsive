@@ -8,7 +8,7 @@
     <div class = "navi-bank"><a class="navi">NAVI</a>
         <a class="bank">Bank</a>
         <div  class="vl"></div> &emsp;&emsp;
-        <a class="bank">Thông báo</a>
+        <a class="bank">Tài Khoan</a>
     </div>
     <hr class="line"></div>
 </head>
@@ -17,7 +17,7 @@
     <header class="tm-header text-center">
         <div class="center">
           <div class="wrap-mini" >
-            <a href="account.html">
+            <a href="#">
                 <div class="rhombus-mini">
                     <p>
                         <i class="fa fa-wallet"></i><br>
@@ -67,19 +67,41 @@
                       </li> 
                 </ul>
             </nav>
-            <div id = "Noti" ></div>
+            <div id = "Account" ></div>
 
         </div>
     </div>
            
-        
-        
+    <nav class="tm-nav">
+        <ul>
+          <li class="active">
+            <a onclick = "Transaction()"><span class="tm-nav-deco"></span>Giao dịch</a>
+          </li>
+          <li>
+            <a onclick = "Promotion()"><span class="tm-nav-deco"></span>Khuyến mãi</a>
+          </li> 
+          <li >
+            <a onclick = "Notification()"><span class="tm-nav-deco"></span>Thông báo</a>
+          </li>
+        </ul>
+    </nav> 
+    <div class = "center">
+        <div class="rhombus-account" >
+            <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Truy vấn thông tin tài khoản&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
+        </div>  
+    </div>
+
+    <div class = "center">
+        <div class="rhombus-account" >
+            <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Lịch sử giao dịch&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
+        </div>  
+    </div>
        
     </section>
    
     
 </body>
 
-<script src="js/noti.js"></script>
+<!-- <script src="js/noti.js"></script> -->
 
 </html>
