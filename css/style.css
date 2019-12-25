@@ -380,6 +380,41 @@
         background-color: #C4C4C4;
     }
 
+    .column-recharge {
+        border:3px solid #44A7DA;
+        float: left;
+        width: 40%;
+        padding: 10px;
+        margin: 5px;
+        /* height: 200px; */
+        /* box-shadow: 2px 2px gray; */
+    }
+
+    .column-recharge-phone {
+        border:1px solid #44A7DA;
+        /* float: left; */
+        width: 660px;
+        /* right: 50px; */
+        /* padding: 10px; */
+        margin: 10px;
+        height: 35px;
+        /* text-align: center; */
+        /* box-shadow: 2px 2px gray; */
+        border-radius: 5px;
+        background-color: #C4C4C4;
+    }
+
+    .recharge-money{
+        background-color: #C4C4C4;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        width: 20%;
+        border: 3px solid #44A7DA;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
     .z-index-div {
         position: absolute;
         left : 400px;
