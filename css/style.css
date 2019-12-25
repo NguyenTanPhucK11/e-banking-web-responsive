@@ -186,6 +186,66 @@
         }
     }
 
+    .rhombus-account-info-1 {
+        text-align: center;
+        width: 500px;
+        height: 30px;
+        background: #44A7DA;
+        margin: 0px;
+        margin-top: 30px;
+        margin-left: 60px;
+        /* float: left; */
+        border: 2.5px solid #44A7DA;
+        /* border-bottom-left-radius: 11px; */
+        
+    }
+    
+    
+    .rhombus-account-info-1 p {
+        color: #f6f0e3;
+        text-align: center;
+        transform: translate(10px, 10px);
+    }   
+    
+    @media screen and (max-width: 1000px) {
+        .wrap {
+            width: 240px;
+            margin: 100px auto;
+        }
+        .rhombus-account-info-1 {
+            float: none;
+            margin: 80px 40px;
+        }
+    }
+
+    .rhombus-account-info-2 {
+        /* text-align: center; */
+        width: 500px;
+        height: 60px;
+        background: white;
+        /* margin-bottom: 20px; */
+        margin-left: 60px;
+        /* float: left; */
+        border: 2.5px solid #44A7DA;
+        border-bottom-left-radius: 11px;
+        
+    }
+    
+    .rhombus-account-info-2:hover {
+        background: #f6f0e3;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        .wrap {
+            width: 240px;
+            margin: 100px auto;
+        }
+        .rhombus-account-info-2 {
+            float: none;
+            margin: 80px 40px;
+        }
+    }
+
     .rotated {
         transform: rotate(90deg);
         /* Equal to rotateZ(45deg) */
@@ -240,7 +300,106 @@
         /* height: 200px; */
         box-shadow: 2px 2px gray;
     }
+
+    .column-history {
+        border:1px solid #44A7DA;
+        float: left;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        height: 355px;
+        /* box-shadow: 2px 2px gray; */
+    }
     
+    .column-history-search {
+        border:1px solid #44A7DA;
+        /* float: left; */
+        width: 300px;
+        /* right: 50px; */
+        /* padding: 10px; */
+        margin: 10px;
+        height: 30px;
+        /* text-align: center; */
+        /* box-shadow: 2px 2px gray; */
+        border-radius: 30px;
+        background-color: #f6f0e3;
+    }
+
+    .column-history-search-text {
+        border:1px solid #44A7DA;
+        /* float: left; */
+        width: 300px;
+        /* right: 50px; */
+        /* padding: 10px; */
+        margin: 10px;
+        height: 30px;
+        /* text-align: center; */
+        /* box-shadow: 2px 2px gray; */
+        border-radius: 30px;
+        background-color: #f6f0e3;
+    }
+
+    .column-history-gray {
+        /* border:1px solid #44A7DA; */
+        background-color: #ECECF6;
+        /* float: left; */
+        width: 300px;
+        /* padding: 10px; */
+        /* margin: 10px; */
+        height: 300px;
+        /* box-shadow: 2px 2px gray; */
+
+    }
+
+
+    .column-history-info {
+        border:1px solid #44A7DA;
+        /* float: left; */
+        width: 640px;
+        /* right: 50px; */
+        /* padding: 10px; */
+        margin: 20px;
+        height: 80px;
+        /* text-align: center; */
+        /* box-shadow: 2px 2px gray; */
+        border-radius: 5px;
+        background-color: #C4C4C4;
+    }
+
+    .column-account-info-pay {
+        border:1px solid #44A7DA;
+        /* float: left; */
+        width: 660px;
+        /* right: 50px; */
+        /* padding: 10px; */
+        margin: 10px;
+        height: 30px;
+        /* text-align: center; */
+        /* box-shadow: 2px 2px gray; */
+        border-radius: 5px;
+        background-color: #C4C4C4;
+    }
+
+    .z-index-div {
+        position: absolute;
+        left : 400px;
+        top: 254px;
+        z-index: 1;
+        background-color: #f6f0e3;
+        border:1px solid #44A7DA;
+        /* float: left; */
+        text-align: center;
+        width: 300px;
+        /* right: 50px; */
+        /* padding: 10px; */
+        margin: 10px;
+        height: 25px;
+        /* text-align: center; */
+        /* box-shadow: 2px 2px gray; */
+        border-radius: 10px;
+        
+    }
+
     .center {
         margin: auto;
         width: 50%;
@@ -331,3 +490,17 @@
             position: static;
         }
     }
+
+    .alignleft{
+        font-weight: normal;
+        color: black;
+        float: left;
+        margin: 5px;
+    }
+
+    .alignright{
+        color: black;
+        float: right;
+        margin: 5px
+    }
+
