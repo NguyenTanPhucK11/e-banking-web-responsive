@@ -91,6 +91,9 @@
         float: left;
         border: 2.5px solid #44A7DA;
         border-radius: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center
     }
     
     .rhombus-mini:hover {
@@ -98,12 +101,12 @@
     }
     
     .rhombus-mini p {
-        transform: rotate(45deg) translate(15px, 15px);
+        transform: rotate(45deg) ;
         text-align: center;
     }
     
     .rhombus-mini icon {
-        transform: rotate(45deg) translate(48px, 48px);
+        transform: rotate(45deg) ;
         text-align: center;
     }
     
@@ -127,6 +130,10 @@
         float: left;
         border: 2.5px solid #44A7DA;
         border-radius: 11px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center
     }
     
     .rhombus:hover {
@@ -134,12 +141,11 @@
     }
     
     .rhombus p {
-        transform: rotate(45deg) translate(35px, 30px);
-        text-align: center;
+        transform: rotate(45deg);
     }
     
     .rhombus icon {
-        transform: rotate(45deg) translate(48px, 48px);
+        transform: rotate(45deg);
         text-align: center;
     }
     
@@ -402,6 +408,30 @@
         /* box-shadow: 2px 2px gray; */
         border-radius: 5px;
         background-color: #C4C4C4;
+    }
+    
+    .column-transaction-origin{
+        /* border:1px solid #44A7DA; */
+        /* float: left; */
+        width: 300px;
+        /* right: 50px; */
+        /* padding: 10px; */
+        margin: 5px;
+        height: 20px;
+        /* text-align: center; */
+        /* box-shadow: 2px 2px gray; */
+        border-radius: 5px;
+        /* background-color: #C4C4C4; */
+    }
+
+    .column-transaction{
+        border:1px solid #44A7DA;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 2px 2px gray; */
+        height: 160px; 
+        width: 300px;
     }
 
     .recharge-money{
