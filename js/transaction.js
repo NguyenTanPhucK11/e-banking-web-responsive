@@ -1,11 +1,6 @@
 window.onload = Transaction();
 function Transaction(){
-    document.querySelector("#Account").innerHTML = `
-    <div>
-                
-    
-
-</div>
+    document.querySelector("#Transaction").innerHTML = `
 
 <div class="row">
     <div class="center">
@@ -117,11 +112,84 @@ function Transaction(){
             <div class="alignright">
                 <input type="radio" name="gender" value="male" checked>Chuyển tiền<br>
             </div> 
+            
         </div>
         
     </div>
    
     </div>
+    <input type="button" class="button" value="Tiếp tục" onclick ="TransactionInfo()">
 </div>
+
+
+            `
+}
+
+function TransactionInfo(){
+    document.querySelector("#Transaction").innerHTML = `
+    <div class="center">
+        <div class="z-index-div">Thông tin tài khoản tiền vay</div>
+        <div style="color: #C4C4C4; height: 370px;" class="column-history">
+           
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">Tên người thụ hưởng</p>
+                <p class="alignright">TRAN DUY MINH</p>
+            </div>
+        </div>
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">Tài khoản thụ hưởng</p>
+                <p class="alignright">31410003035831</p>
+            </div>
+        </div>
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">Đối tượng chịu phí</p>
+                <p class="alignright">Người chuyển</p>
+            </div>
+        </div>
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">Số tiền</p>
+                <p class="alignright">100,000 VND</p>
+            </div>
+        </div>
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">Phí</p>
+                <p class="alignright">1,000 VND</p>
+            </div>
+        </div>
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">VAT</p>
+                <p class="alignright">100VND</p>
+            </div>
+        </div>
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">Ngày giao dịch</p>
+                <p class="alignright">05/11/2019 21:46:25</p>
+            </div>
+        </div>
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
+            <div style="clear : both;">
+                <p class="alignleft">Nội dung</p>
+                <p class="alignright">Chuyển tiền</p>
+            </div>
+        </div>
+        <div class="center" >
+            <div style="clear : both;">
+                <p class="alignleft"><input type="button" class="button" value="    Huỷ    " onclick = "Transaction()"></p>
+                <p class="alignleft"><input type="button" class="button" value="Tiếp tục"></p>
+            </div>
+            
+            
+        </div>
+        
+        </div>
+        
+    </div>
             `
 }

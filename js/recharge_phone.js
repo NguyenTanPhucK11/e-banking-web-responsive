@@ -1,7 +1,7 @@
 
 window.onload = Recharge();
 function Recharge(){
-    document.querySelector("#Account").innerHTML = `
+    document.querySelector("#Recharge").innerHTML = `
     <nav class="tm-nav">
         <ul>
             <li >
@@ -47,7 +47,7 @@ function Recharge(){
 }
 
 function AcceptRecharge(){
-    document.querySelector("#Account").innerHTML =`
+    document.querySelector("#Recharge").innerHTML =`
     <nav class="tm-nav">
         <ul>
             <li >
