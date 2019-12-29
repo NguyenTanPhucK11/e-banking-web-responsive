@@ -14,13 +14,7 @@
         font-family: Righteous;
         src: url(ttf/Righteous-Regular.ttf);
     }
-    /* p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 75ch;
-} */
-    
+
     a {
         color: #44A7DA;
         text-decoration: none;
@@ -54,7 +48,84 @@
         margin-left: -3px;
         top: 10px;
     }
+
+    .rotated {
+        transform: rotate(90deg);
+        /* Equal to rotateZ(45deg) */
+    }
     
+    .btn {
+        text-align: center;
+        border: none;
+        background-color: #C4C4C4;
+        padding: 14px 50px;
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 5px;
+        flex: auto;
+    }
+    
+    
+    .info:hover {
+        background: #2196F3;
+        color: black;
+    }
+    
+    
+    img{
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 200px;
+    }
+    
+    .center {
+        margin: auto;
+        width: 50%;
+        align-items: center;
+        justify-content: center
+        /* border: 3px solid green; */
+        /* padding: 10px; */
+    }
+    @media (max-width: 1200px) {
+        .tm-nav-right {
+            position: static;
+        }
+    }
+
+    .alignleft{
+        font-weight: normal;
+        color: black;
+        float: left;
+        margin: 5px;
+    }
+
+    .alignright{
+        color: black;
+        float: right;
+        margin: 5px
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+    .button {
+        background-color: #44A7DA; /* Green */
+        border: none;
+        color: white;
+        padding: 5px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+    
+    /* Page home */
+
     .wrap {
         position: relative;
         width: 700px;
@@ -77,9 +148,12 @@
     
     .wrap-mini {
         position: relative;
-        width: 1000px;
+        /* width: 900px; */
         height: 120px;
         margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center
     }
     
     .rhombus-mini {
@@ -112,12 +186,16 @@
     
     @media screen and (max-width: 1000px) {
         .wrap-mini {
-            width: 240px;
-            margin: 100px auto;
+            width: 0px;
+            margin: 42px auto;
+            float: right;
+            width: 20px;
+            height: 20px;
+            margin: 10px auto;
         }
         .rhombus-mini {
             float: left;
-            margin: 80px 40px;
+            margin: 20px 20px;
         }
     }
     
@@ -160,6 +238,8 @@
         }
     }
     
+    /* Page Account */
+
     .rhombus-account {
         text-align: center;
         width: 500px;
@@ -252,61 +332,6 @@
         }
     }
 
-    .rotated {
-        transform: rotate(90deg);
-        /* Equal to rotateZ(45deg) */
-    }
-    
-    .btn {
-        text-align: center;
-        border: none;
-        background-color: #C4C4C4;
-        padding: 14px 50px;
-        font-size: 15px;
-        cursor: pointer;
-        display: inline-block;
-        border-radius: 5px;
-        flex: auto;
-    }
-    
-    
-    .info:hover {
-        background: #2196F3;
-        color: black;
-    }
-    
-    div.break-word-trans {
-        /* border:1px solid gray; */
-        width: 500px;
-        height: 70px;
-        word-wrap: break-word;
-    }
-    img{
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 200px;
-    }
-    .column {
-        /* border:1px solid gray; */
-        float: left;
-        width: 20%;
-        padding: 10px;
-        margin: 10px;
-        /* height: 200px; */
-        box-shadow: 2px 2px gray;
-    }
-    
-    .column-pro {
-        /* border:1px solid gray; */
-        float: left;
-        width: 30%;
-        padding: 10px;
-        margin: 10px;
-        /* height: 200px; */
-        box-shadow: 2px 2px gray;
-    }
-
     .column-history {
         border:1px solid #44A7DA;
         float: left;
@@ -345,19 +370,6 @@
         background-color: #f6f0e3;
     }
 
-    .column-history-gray {
-        /* border:1px solid #44A7DA; */
-        background-color: #ECECF6;
-        /* float: left; */
-        width: 300px;
-        /* padding: 10px; */
-        /* margin: 10px; */
-        height: 300px;
-        /* box-shadow: 2px 2px gray; */
-
-    }
-
-
     .column-history-info {
         border:1px solid #44A7DA;
         /* float: left; */
@@ -386,6 +398,36 @@
         background-color: #C4C4C4;
     }
 
+    /* Page Notification */
+  
+    div.break-word-trans {
+        /* border:1px solid gray; */
+        width: 500px;
+        height: 70px;
+        word-wrap: break-word;
+    }
+    .column {
+        /* border:1px solid gray; */
+        float: left;
+        width: 20%;
+        padding: 10px;
+        margin: 10px;
+        /* height: 200px; */
+        box-shadow: 2px 2px gray;
+    }
+    
+    .column-pro {
+        /* border:1px solid gray; */
+        float: left;
+        width: 30%;
+        padding: 10px;
+        margin: 10px;
+        /* height: 200px; */
+        box-shadow: 2px 2px gray;
+    }
+
+    /* Page Recharge */
+
     .column-recharge {
         border:3px solid #44A7DA;
         float: left;
@@ -409,55 +451,6 @@
         border-radius: 5px;
         background-color: #C4C4C4;
     }
-    
-    .column-transaction-origin{
-        /* border:1px solid #44A7DA; */
-        /* float: left; */
-        width: 300px;
-        /* right: 50px; */
-        /* padding: 10px; */
-        margin: 5px;
-        height: 20px;
-        /* text-align: center; */
-        /* box-shadow: 2px 2px gray; */
-        border-radius: 5px;
-        /* background-color: #C4C4C4; */
-    }
-
-    .column-transaction-info-mini{
-        /* border:1px solid #44A7DA; */
-        /* float: left; */
-        width: 300px;
-        /* right: 50px; */
-        /* padding: 10px; */
-        margin: 5px;
-        height: 20px;
-        /* text-align: center; */
-        /* box-shadow: 2px 2px gray; */
-        border-radius: 5px;
-        /* background-color: #C4C4C4; */
-    }
-
-
-    .column-transaction-info{
-        border:1px solid #44A7DA;
-        float: left;
-        padding: 10px;
-        margin: 10px;
-        /* box-shadow: 2px 2px gray; */
-        height: 150px; 
-        width: 642px;
-    }
-
-    .column-transaction{
-        border:1px solid #44A7DA;
-        float: left;
-        padding: 10px;
-        margin: 10px;
-        /* box-shadow: 2px 2px gray; */
-        height: 160px; 
-        width: 300px;
-    }
 
     .recharge-money{
         background-color: #C4C4C4;
@@ -469,104 +462,104 @@
         padding: 10px;
         margin-bottom: 5px;
     }
+    
+    /* Page Transaction */
 
-    .z-index-div {
+    .column-transaction-info{
+        border:1px solid #44A7DA;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 2px 2px gray; */
+        height: 150px; 
+        width: 642px;
+    }
+
+    .column-transaction-info-mini{
+        width: 300px;
+        margin: 5px;
+        height: 20px;
+        border-radius: 5px;
+    }
+   
+    .column-transaction{
+        border:1px solid #44A7DA;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        height: 160px; 
+        width: 300px;
+    }
+
+    .name-column {
         position: absolute;
         left : 400px;
         top: 254px;
         z-index: 1;
         background-color: #f6f0e3;
         border:1px solid #44A7DA;
-        /* float: left; */
         text-align: center;
         width: 300px;
-        /* right: 50px; */
-        /* padding: 10px; */
         margin: 10px;
         height: 25px;
-        /* text-align: center; */
-        /* box-shadow: 2px 2px gray; */
         border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center
     }
 
-    .z-index-transaction {
+    .name-column-transaction {
         position: absolute;
         left : 350px;
         top: 254px;
         z-index: 1;
         background-color: #f6f0e3;
         border:1px solid #44A7DA;
-        /* float: left; */
         text-align: center;
         width: 300px;
-        /* right: 50px; */
-        /* padding: 10px; */
         margin: 10px;
         height: 25px;
-        /* text-align: center; */
-        /* box-shadow: 2px 2px gray; */
         border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center
     }
 
-    .z-index-transaction-benefit {
+    .name-column-transaction-benefit {
         position: absolute;
         left : 715px;
         top: 254px;
         z-index: 1;
         background-color: #f6f0e3;
         border:1px solid #44A7DA;
-        /* float: left; */
         text-align: center;
         width: 250px;
-        /* right: 50px; */
-        /* padding: 10px; */
         margin: 10px;
         height: 25px;
-        /* text-align: center; */
-        /* box-shadow: 2px 2px gray; */
         border-radius: 10px;
-
         display: flex;
         align-items: center;
         justify-content: center
     }
 
-    .z-index-transaction-info {
+    .name-column-transaction-info {
         position: absolute;
         left : 350px;
         top: 455px;
         z-index: 1;
         background-color: #f6f0e3;
         border:1px solid #44A7DA;
-        /* float: left; */
         text-align: center;
         width: 300px;
-        /* right: 50px; */
-        /* padding: 10px; */
         margin: 10px;
         height: 25px;
-        /* text-align: center; */
-        /* box-shadow: 2px 2px gray; */
         border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center
     }
 
-    .center {
-        margin: auto;
-        width: 50%;
-        
-        /* border: 3px solid green; */
-        /* padding: 10px; */
-    }
-
+    /* Nav */
 
     .tm-nav {
         position: absolute;
@@ -645,47 +638,15 @@
     .tm-nav-right>ul>li:hover>a>.tm-nav-right-deco {
         background-color: #0299CC;
     }
+
     
-    @media (max-width: 1200px) {
-        .tm-nav-right {
-            position: static;
-        }
-    }
+    
+    /* Page Utilities */
 
-    .alignleft{
-        font-weight: normal;
-        color: black;
-        float: left;
-        margin: 5px;
-    }
-
-    .alignright{
-        color: black;
-        float: right;
-        margin: 5px
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      .button {
-        background-color: #44A7DA; /* Green */
-        border: none;
-        color: white;
-        padding: 5px 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      }
-
-      .center-utilities{
+    .center-utilities{
           margin : auto;
           width: 60%;
-      }
+    }
       .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
@@ -731,44 +692,23 @@
         justify-content: center
       }
 
-      .rhombus-exchange-info-1 {
-        /* text-align: center; */
+      .exchange-info-1 {
         width: 500px;
         height: 30px;
         background: white;
-        /* margin-bottom: 20px; */
         margin-left: 60px;
-        /* float: left; */
         border: 2.5px solid #44A7DA;
-        /* border-bottom-left-radius: 11px; */
         display: flex;
         align-items: center;
         justify-content: center
     }
 
-    .rhombus-exchange-info-2 {
-        /* text-align: center; */
+    .exchange-info-2 {
         width: 500px;
         height: 200px;
         background: white;
-        /* margin-bottom: 20px; */
         margin-left: 60px;
-        /* float: left; */
         border: 2.5px solid #44A7DA;
-        border-bottom-left-radius: 11px;
-        border-top: 0px;
-        text-align: start;
-    }
-
-    .rhombus-exchange-info-3 {
-        /* text-align: center; */
-        width: 500px;
-        height: 200px;
-        background: white;
-        /* margin-bottom: 20px; */
-        /* margin-left: 60px; */
-        /* float: left; */
-        border: none;
         border-bottom-left-radius: 11px;
         border-top: 0px;
         text-align: start;

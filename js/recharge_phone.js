@@ -9,14 +9,14 @@ function Recharge(){
             </li>
         </ul>
     </nav>
-    <div class="center">
+<div class="center">
     <div style="color: #C4C4C4;" class="column-recharge">
         <p>Số tài khoản</p>
-        <p class="center">18110000028436</pclass="center">
+        <p class="center">18110000028436</p>
         <p>Số dư</p>
         <p class="alignright">2,000,000 VND</p>
-    
     </div>
+
     <div class="column-recharge" style="width: 100%;">
         <p>Số điện thoại được nạp</p> 
         <button style="float: right;">SSSSSSS</button>
@@ -27,8 +27,8 @@ function Recharge(){
         <p>Mệnh giá</p>
         <div>
             <p class="recharge-money" style="float: left;">10.000</p>
-            <p class="recharge-money" style="float: right;">10.000</p>
-            <p class="recharge-money" style="float: center;">10.000</p>
+            <p class="recharge-money" style="float: right;">30.000</p>
+            <p class="recharge-money" style="float: center;">20.000</p>
         </div>
         <div>
             <p class="recharge-money" style="float: left;">10.000</p>
@@ -59,7 +59,7 @@ function AcceptRecharge(){
         </ul>
     </nav>
     <div class="center">
-        <div class="z-index-div">Xác nhận</div>
+        <div class="name-column">Xác nhận</div>
         <div style="color: #C4C4C4; height: 340px;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-recharge-phone">

@@ -329,10 +329,10 @@ function ExchangeInfo(){
     </ul>
 </nav>
     <div class = "center">
-        <div class="rhombus-exchange-info-1"  >
+        <div class="exchange-info-1"  >
             <p>Truy vấn thông tin tài khoản</p>
         </div>  
-        <textarea class="rhombus-exchange-info-2" name="Text1" cols="40" rows="5" placeholder="Nhập văn bản"></textarea> 
+        <textarea class="exchange-info-2" name="Text1" cols="40" rows="5" placeholder="Nhập văn bản"></textarea> 
         
        
         

@@ -13,6 +13,7 @@ function Account(){
             <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Lịch sử giao dịch&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
         </div>  
     </div>
+    
             `
 }
 
@@ -55,7 +56,7 @@ function AccountInfo(){
 function HistoryTransaction(){
     document.querySelector("#Account").innerHTML =`
     <div class="center">
-        <div class="z-index-div">Lịch sử giao dịch</div>
+        <div class="name-column">Lịch sử giao dịch</div>
         <div style="color: #C4C4C4;" class="column-history">
            
             <div class="center">
@@ -132,7 +133,7 @@ function AccountInfoPay(){
         </ul>
     </nav>
     <div class="center">
-        <div class="z-index-div">Thông tin tài khoản thanh toán</div>
+        <div class="name-column">Thông tin tài khoản thanh toán</div>
         <div style="color: #C4C4C4;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-account-info-pay">
@@ -200,7 +201,7 @@ function AccountInfoSaving(){
         </ul>
     </nav>
     <div class="center">
-        <div class="z-index-div">Thông tin tài khoản tiền vay</div>
+        <div class="name-column">Thông tin tài khoản tiền vay</div>
         <div style="color: #C4C4C4; height: 340px;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-account-info-pay">
@@ -275,7 +276,7 @@ function AccountInfoLoan(){
         </ul>
     </nav>
     <div class="center">
-        <div class="z-index-div">Thông tin tài khoản tiết kiệm</div>
+        <div class="name-column">Thông tin tài khoản tiết kiệm</div>
         <div style="color: #C4C4C4; height: 340px;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-account-info-pay">
