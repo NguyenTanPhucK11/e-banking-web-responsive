@@ -49,6 +49,8 @@
         top: 10px;
     }
 
+    
+
     .rotated {
         transform: rotate(90deg);
         /* Equal to rotateZ(45deg) */
@@ -117,7 +119,7 @@
         background-color: #44A7DA; /* Green */
         border: none;
         color: white;
-        padding: 10px 25px;
+        padding: 10px 10px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -428,6 +430,14 @@
     }
 
     /* Page Recharge */
+    .vl-recharge-money{
+        left: 45%;
+        border-left: 4px solid #44A7DA;
+        height: 100px;
+        position: absolute;
+        margin-left: -3px;
+        top: 10px;
+    }
 
     .column-recharge {
         border:3px solid #44A7DA;
@@ -450,7 +460,7 @@
         /* text-align: center; */
         /* box-shadow: 2px 2px gray; */
         border-radius: 5px;
-        background-color: #C4C4C4;
+        background-color: #ECECF6;
     }
 
     .recharge-money{
@@ -498,7 +508,7 @@
         left : 400px;
         top: 254px;
         z-index: 1;
-        background-color: #f6f0e3;
+        background-color: white;
         border:1px solid #44A7DA;
         text-align: center;
         width: 300px;
@@ -726,3 +736,78 @@
         border-radius: 4px;
         box-sizing: border-box;
       }
+
+      /* Responsive */
+      @media only screen and (min-width: 360px) {
+
+        .wrap-mini {
+            position: relative;
+            width: 450px;
+            height: 120px;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+        .vl-recharge-money{
+            left: 43.5%;
+            border-left: 4px solid #44A7DA;
+            height: 100px;
+            position: absolute;
+            margin-left: -3px;
+            top: 10px;
+        }
+    
+        .column-recharge {
+            border:3px solid #44A7DA;
+            float: left;
+            width: 40%;
+            padding: 10px;
+            margin: 5px;
+            /* height: 200px; */
+            /* box-shadow: 2px 2px gray; */
+        }
+    
+        .column-recharge-phone {
+            border:1px solid #44A7DA;
+            /* float: left; */
+            width: 465px;
+            /* right: 50px; */
+            /* padding: 10px; */
+            margin: 10px;
+            height: 35px;
+            /* text-align: center; */
+            /* box-shadow: 2px 2px gray; */
+            border-radius: 5px;
+            background-color: #ECECF6;
+        }
+    
+        .recharge-money{
+            background-color: #ECECF6;
+            border-radius: 10px;
+            text-align: center;
+            margin: auto;
+            width: 20%;
+            /* border: 3px solid #44A7DA; */
+            padding: 10px;
+            margin-bottom: 5px;
+            color: #EE2E2E;
+        }
+
+        .name-column {
+            position: absolute;
+            left : 270px;
+            top: 254px;
+            z-index: 1;
+            background-color: white;
+            border:1px solid #44A7DA;
+            text-align: center;
+            width: 300px;
+            margin: 10px;
+            height: 25px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+    }

@@ -20,14 +20,14 @@ function Recharge(){
     <div class="column-recharge" style="width: 100%;">
         <p>Số điện thoại được nạp</p>
         <div>
-        <input type="text" id="input-phone-number" name="firstname" placeholder="Số điện thoại"> 
+        <input type="text" id="input-phone-number" name="firstname" placeholder="Số điện thoại">
+        <button class = "button" style="padding: 0px 0px;background-color: white; "onclick = "changePhoneNumber(5)"><img style="float: left; padding: 0px; width: 17px;" src="images/contacts.png" >&ensp;</button>    
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(1)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Phúc</button>    
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(2)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Khoa</button>
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(3)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Minh</button>
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(4)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Khiêm</button>
         
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(1)">Phúc</button>
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(2)">Khoa</button>
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(3)">Minh</button>
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(4)">Khiêm</button>
         
-        <p class="center">ICON</p>
         </div>
         <p style = "color : #EE2E2E">Bỏ trống nếu nạp cho chính mình</p>
         <p>Mệnh giá</p>
