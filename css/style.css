@@ -3,11 +3,11 @@
         padding: 0;
         font-family: sans-serif;
         color: #44A7DA;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
     
     body {
-        background: #f6f0e3;
+        background: white;
     }
     
     @font-face {
@@ -453,14 +453,15 @@
     }
 
     .recharge-money{
-        background-color: #C4C4C4;
+        background-color: #ECECF6;
         border-radius: 10px;
         text-align: center;
         margin: auto;
         width: 20%;
-        border: 3px solid #44A7DA;
+        /* border: 3px solid #44A7DA; */
         padding: 10px;
         margin-bottom: 5px;
+        color: #EE2E2E;
     }
     
     /* Page Transaction */
@@ -566,7 +567,7 @@
         /* right: 0px; */
         /* top: 0px; */
     }
-    
+   
     .tm-nav>ul>li {
         list-style: none;
     }

@@ -10,11 +10,11 @@ function Recharge(){
         </ul>
     </nav>
 <div class="center">
-    <div style="color: #C4C4C4;" class="column-recharge">
-        <p>Số tài khoản</p>
-        <p class="center">18110000028436</p>
-        <p>Số dư</p>
-        <p class="alignright">2,000,000 VND</p>
+    <div style="color: black;" class="column-recharge">
+        <p style="color: black;">Số tài khoản</p>
+        <p class="center" style=" font-weight:bold; color: black">18110000028436</p>
+        <p style="color: black;">Số dư</p>
+        <p class="alignright" style=" font-weight:bold; color : #EE2E2E">2,000,000 VND</p>
     </div>
 
     <div class="column-recharge" style="width: 100%;">
@@ -22,8 +22,9 @@ function Recharge(){
         <button style="float: right;">SSSSSSS</button>
         <button style="float: right;">SSSSSSS</button>
         <button style="float: right;">SSSSSSS</button>
+        
         <p class="center">ICON</p>
-        <p>Bỏ trống nếu nạp cho chính mình</p>
+        <p style = "color : #EE2E2E ">Bỏ trống nếu nạp cho chính mình</p>
         <p>Mệnh giá</p>
         <div>
             <p class="recharge-money" style="float: left;">10.000</p>
@@ -31,14 +32,13 @@ function Recharge(){
             <p class="recharge-money" style="float: center;">20.000</p>
         </div>
         <div>
-            <p class="recharge-money" style="float: left;">10.000</p>
-            <p class="recharge-money" style="float: right;">10.000</p>
-            <p class="recharge-money" style="float: center;">10.000</p>
+            <p class="recharge-money" style="float: left;">50.000</p>
+            <p class="recharge-money" style="float: right;">200.000</p>
+            <p class="recharge-money" style="float: center;">100.000</p>
         </div>
         <div>
-            <p class="recharge-money" style="float: left;">10.000</p>
-            <p class="recharge-money" style="float: right;">10.000</p>
-            <p class="recharge-money" style="float: center;">10.000</p>
+            <p class="recharge-money" style="float: left;">300.000</p>
+            <p class="recharge-money" style="float: center;">500.000</p>
         </div>
     
     </p>
@@ -109,4 +109,8 @@ function AcceptRecharge(){
         </div>
         
     </div>`
+}
+
+function changeColor(){
+    document.getElementsByTagName('button').style.backgroundColor="green";
 }
