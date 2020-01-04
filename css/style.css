@@ -738,11 +738,11 @@
       }
 
       /* Responsive */
-      @media only screen and (min-width: 360px) {
+      @media only screen and (max-width: 360px) {
 
         .wrap-mini {
             position: relative;
-            width: 450px;
+            width : 80%;
             height: 120px;
             margin: 10px auto;
             display: flex;
