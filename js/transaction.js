@@ -66,7 +66,7 @@ function Transaction(){
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">ICON beneficiaries</p>
+                <p class="alignleft"></p>
             </div>
         </div>
        

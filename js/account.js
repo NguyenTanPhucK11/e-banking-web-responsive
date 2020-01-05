@@ -3,13 +3,13 @@ window.onload = Account();
 function Account(){
     document.querySelector("#Account").innerHTML = `
     <div class = "center">
-        <div class="rhombus-account" onclick="AccountInfo()" >
+        <div class="account" onclick="AccountInfo()">
             <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Truy vấn thông tin tài khoản&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
         </div>  
     </div>
 
     <div class = "center">
-        <div class="rhombus-account" onclick="HistoryTransaction()">
+        <div class="account" onclick="HistoryTransaction()">
             <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Lịch sử giao dịch&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
         </div>  
     </div>
@@ -19,11 +19,18 @@ function Account(){
 
 function AccountInfo(){
     document.querySelector("#Account").innerHTML =`
+    <nav class="tm-nav">
+    <ul>
+        <li >
+            <a onclick = "Account()"><span class="tm-nav-deco"></span>Quay lại</a>
+        </li>
+    </ul>
+    </nav>
     <div class = "center">
-    <div class="rhombus-account-info-1" >
+    <div class="account-info-1" >
         <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Tài khoản thanh toán&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
     </div>  
-    <div class="rhombus-account-info-2" onclick = "AccountInfoPay()">
+    <div class="account-info-2" onclick = "AccountInfoPay()">
         <div style="clear : both;">
         <p class="alignleft">Số dư khả dụng</p>
         <p class="alignright">0.00</p>
@@ -31,10 +38,10 @@ function AccountInfo(){
     </div> 
 </div>
 <div class = "center">
-    <div class="rhombus-account-info-1" >
+    <div class="account-info-1" >
         <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Tài khoản tiết kiệm&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
     </div>  
-    <div class="rhombus-account-info-2" >
+    <div class="account-info-2" >
         <div style="clear : both;">
         <p class="alignleft">Số dư khả dụng</p>
         <p class="alignright">0.00</p>
@@ -42,10 +49,10 @@ function AccountInfo(){
     </div> 
 </div>
 <div class = "center">
-    <div class="rhombus-account-info-1" >
+    <div class="account-info-1" >
         <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Tài khoản tiền vay&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
     </div>  
-    <div class="rhombus-account-info-2" >
+    <div class="account-info-2" >
         <div style="clear : both;">
         <p class="alignleft">Số dư khả dụng</p>
         <p class="alignright">0.00</p>
@@ -55,6 +62,13 @@ function AccountInfo(){
 }
 function HistoryTransaction(){
     document.querySelector("#Account").innerHTML =`
+    <nav class="tm-nav">
+    <ul>
+        <li >
+            <a onclick = "Account()"><span class="tm-nav-deco"></span>Quay lại</a>
+        </li>
+    </ul>
+    </nav>
     <div class="center">
         <div class="name-column">Lịch sử giao dịch</div>
         <div style="color: #C4C4C4;" class="column-history">
@@ -172,7 +186,7 @@ function AccountInfoPay(){
                 <p class="alignright">VND</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;height: 90px;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Chi nhánh mở</p>
                 <p class="alignright">NH TMCP DT PT VN - CN QUAN 9 SAI GON</p>
@@ -202,7 +216,7 @@ function AccountInfoSaving(){
     </nav>
     <div class="center">
         <div class="name-column">Thông tin tài khoản tiền vay</div>
-        <div style="color: #C4C4C4; height: 340px;" class="column-history">
+        <div style="color: #C4C4C4;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
@@ -277,7 +291,7 @@ function AccountInfoLoan(){
     </nav>
     <div class="center">
         <div class="name-column">Thông tin tài khoản tiết kiệm</div>
-        <div style="color: #C4C4C4; height: 340px;" class="column-history">
+        <div style="color: #C4C4C4;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
@@ -297,7 +311,7 @@ function AccountInfoLoan(){
                 <p class="alignright">300,000 VND</p>
             </div>
         </div>
-        <div style="color: #C4C4C4; height: 80px;" class="column-account-info-pay">
+        <div style="color: #C4C4C4; " class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Tài khoản ghi </p>
                 <p class="alignright">01/11/2019 14:02:33</p>
@@ -307,7 +321,7 @@ function AccountInfoLoan(){
                 <p class="alignright"></p>
             </div>
         </div>
-        <div style="color: #C4C4C4; height: 100px;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="center" style="width: 10%;">Mô tả</p>
             </div>

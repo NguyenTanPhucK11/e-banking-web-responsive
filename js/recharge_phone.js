@@ -11,9 +11,9 @@ function Recharge(){
     </nav>
 <div class="center">
     <div style="color: black;" class="column-recharge">
-        <p style="color: black;">Số tài khoản</p>
+        <p style="color: black;"><i class="fas fa-university"></i> Số tài khoản</p>
         <p class="center" style=" font-weight:bold; color: black">18110000028436</p>
-        <p style="color: black;">Số dư</p>
+        <p style="color: black;"> &nbsp;<i class="fas fa-dollar-sign"></i>&nbsp;Số dư</p>
         <p class="alignright" style=" font-weight:bold; color : #EE2E2E">2,000,000 VND</p>
     </div>
 
@@ -21,16 +21,16 @@ function Recharge(){
         <p>Số điện thoại được nạp</p>
         <div>
         <input type="text" id="input-phone-number" name="firstname" placeholder="Số điện thoại">
-        <button class = "button" style="padding: 0px 0px;background-color: white; "onclick = "changePhoneNumber(5)"><img style="float: left; padding: 0px; width: 17px;" src="images/contacts.png" >&ensp;</button>    
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(1)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Phúc</button>    
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(2)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Khoa</button>
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(3)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Minh</button>
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(4)"><img style="border-radius: 50%; float: left; padding: 0px; width: 17px;" src="images/img.jpg" >&ensp;Khiêm</button>
+        <button class = "button" style="background-color: white; "onclick = "changePhoneNumber(5)"><i class="far fa-address-book" style = "color : red" ></i></button>    
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(1)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Phúc</button>    
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(2)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Khoa</button>
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(3)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Minh</button>
+        <button class = "button" style="float: right;" onclick = "changePhoneNumber(4)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Khiêm</button>
         
         
         </div>
-        <p style = "color : #EE2E2E">Bỏ trống nếu nạp cho chính mình</p>
-        <p>Mệnh giá</p>
+        <p style = "color : #EE2E2E; font-size : 0.8em ; padding : 0.2em"><i class="fas fa-info-circle" style = "color : #EE2E2E;"> </i>&ensp;Bỏ trống nếu nạp cho chính mình</p>
+        <p><i class="fas fa-coins"></i> Mệnh giá</p>
         <div>
             <p onclick = "changeColor(1)" id = "changeColor1" class="recharge-money" style="float: left;">10.000</p>
             <p onclick = "changeColor(3)" id = "changeColor3" class="recharge-money" style="float: right;">30.000</p>
@@ -67,7 +67,7 @@ function AcceptRecharge(){
     </nav>
     <div class="center">
         <div class="name-column">Xác nhận</div>
-        <div style="color: #C4C4C4; height: 340px;" class="column-history">
+        <div style="color: #C4C4C4;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-recharge-phone">
             <div style="clear : both;">
