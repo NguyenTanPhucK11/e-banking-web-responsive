@@ -641,76 +641,86 @@
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         /* background-color: #2196F3; */
-        padding: 10px;
-        width: 800px;
+        padding: 0.7em;
+        width: 55em;
       }
       .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        padding: 5px;
-        font-size: 15px;
+        border: 0.05em solid rgba(0, 0, 0, 0.8);
+        padding: 0.3em;
+        font-size: 0.9em;
         text-align: center;
-        height: 30px;
+        height: 2.3em;
       }
       .grid-item-name {
         background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        padding: 10px;
-        font-size: 15px;
+        border: 0.05em solid rgba(0, 0, 0, 0.8);
+        padding: 0.7em ;
+        font-size: 0.9em;
         text-align: center;
-        height: 45px;
+        height: 3em;
       }
 
       .grid-container-rechange-rate {
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         /* background-color: #2196F3; */
-        padding: 10px;
-        width: 800px;
+        padding: 0.7em;
+        width: 55em;
       }
 
       .grid-item-rechange-rate {
         background-color: rgba(255, 255, 255, 0.8);
-        border-top: 1px solid rgba(0, 0, 0, 0.8);
-        padding: 10px;
-        font-size: 15px;
-        size: 15px;
+        border-top: 0.05em solid rgba(0, 0, 0, 0.8);
+        padding: 0.7em;
+        font-size: 0.9em;
+        size: 0.9em;
         text-align: center;
-        height: 15px;
+        height: 1em;
         display: flex;
         align-items: center;
         justify-content: center
       }
 
       .exchange-info-1 {
-        width: 500px;
-        height: 30px;
+        width: 31.25em;
+        height: 2.3em;
         background: white;
-        margin-left: 60px;
-        border: 2.5px solid #44A7DA;
+        margin-left: 3.75em;
+        border: 0.16em solid #44A7DA;
         display: flex;
         align-items: center;
         justify-content: center
     }
 
     .exchange-info-2 {
-        width: 500px;
-        height: 200px;
+        width: 37.45em;
+        height: 15em;
         background: white;
-        margin-left: 60px;
-        border: 2.5px solid #44A7DA;
-        border-bottom-left-radius: 11px;
-        border-top: 0px;
+        margin-left: 4.5em;
+        border: 0.2em solid #44A7DA;
+        border-bottom-left-radius: 1em;
+        border-top: 0;
         text-align: start;
     }
-
+    .img-utilities{
+        width: 20px;
+    }
+    .button-utilities{
+        width : 50%; 
+        margin: auto;
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        padding: 0.7em;
+    }
     /* ** */
     input[type=text], select {
         width: 20%;
-        padding: 4px 25px;
-        margin: 8px 0;
+        padding: 0.3em 1.8em;
+        margin: 0.6em 0;
         display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+        border: 0.05em solid #ccc;
+        border-radius: 0.3em;
         box-sizing: border-box;
       }

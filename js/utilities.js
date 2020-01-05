@@ -220,85 +220,85 @@ function ExchangeRate(){
 </nav>
     <div class="center-utilities">
     <div class="grid-container-rechange-rate" >
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);"></div>
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);"></div>
         <div class="grid-item-rechange-rate">Mã NT</div>
         <div class="grid-item-rechange-rate">Mua CK</div>  
         <div class="grid-item-rechange-rate">Mua MT</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">Bán</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">Bán</div>
 
 
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">USD<sub>1</sub></div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
 
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">USD<sub>2</sub></div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
 
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">USD<sub>3</sub></div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
         
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">GPB</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
         
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">HKD</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
         
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">JPY</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
 
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">THB</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
         
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">AUD</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
 
         
-        <div class="grid-item-rechange-rate" style="border-left: 1px solid rgba(0, 0, 0, 0.8);border-bottom: 1px solid rgba(0, 0, 0, 0.8);">
-            <img style="width: 20px;" src="images/img.jpg" alt="">
+        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">
+            <img class = "img-utilities" src="images/img.jpg" alt="">
         </div>
-        <div class="grid-item-rechange-rate" style="border-bottom: 1px solid rgba(0, 0, 0, 0.8);">CAD</div>
-        <div class="grid-item-rechange-rate" style="border-bottom: 1px solid rgba(0, 0, 0, 0.8);">23,140.00</div>  
-        <div class="grid-item-rechange-rate" style="border-bottom: 1px solid rgba(0, 0, 0, 0.8);">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-bottom: 1px solid rgba(0, 0, 0, 0.8); border-right: 1px solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">CAD</div>
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">23,140.00</div>  
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">23,140.00</div>
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8); border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
         
     </div>
 </div>
@@ -337,7 +337,7 @@ function ExchangeInfo(){
        
         
     </div>
-    <div style="width : 50%; margin: auto;display: flex; align-items: center;justify-content: center; padding: 10px;">
+    <div class = "button-utilities">
         <input type="button" class="button" value="Tiếp tục" onclick ="TransactionInfo()">
     </div>
         `
