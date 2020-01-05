@@ -9,32 +9,32 @@ function Transaction(){
            
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">Tên chủ tài khoản</p>
+                <p class="alignleft"><i class="fas fa-user-tie"></i> Tên chủ tài khoản</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">VU GIA KHIEM</p>
+                <p class="alignleft" style="text-decoration: underline;">VU GIA KHIEM</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">Tài khoản nguồn</p>
+                <p class="alignleft"> <i class="fas fa-university"></i> Tài khoản nguồn</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">18110000028436</p>
+                <p class="alignleft" style="text-decoration: underline;">18110000028436</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">Số dư</p>
+                <p class="alignleft"><i class="fas fa-dollar-sign"></i>&nbsp;Số dư</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignright">2.000.000 VND</p>
+                <p class="alignright" style = "color : red; font-weight : bold">2.000.000 VND</p>
             </div>
         </div>
        
@@ -45,7 +45,7 @@ function Transaction(){
         <div style="color: #C4C4C4;" class="column-transaction">
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">Tên tài khoản thụ hưởng</p>
+                <p class="alignleft"><i class="fas fa-user-tie"></i> Tên tài khoản thụ hưởng</p>
             </div>
         </div>
 
@@ -56,12 +56,12 @@ function Transaction(){
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">Tài khoản thụ hưởng</p>
+                <p class="alignleft"><i class="fas fa-university"></i> Tài khoản thụ hưởng</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft">31410003035831</p>
+                <p class="alignleft" style="text-decoration: underline;">31410003035831</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
@@ -81,26 +81,26 @@ function Transaction(){
             <p class="alignleft">Số tiền</p>
         </div>
     </div>
-    <div style="color: #C4C4C4;" class="column-transaction-info-mini">
+    <div class = "column-transaction-info-mini-money">
         <div style="clear : both;">
-            <p class="alignleft" >100,000 VND</p>
+            <p class="alignright" >100,000 VND</p>
         </div>
     </div>
     <div style="color: #C4C4C4;" class="column-transaction-info-mini">
         <div style="clear : both;">
-            <p class="alignleft">Đối tượng chịu phí</p>
+            <p class="alignleft" style = "color : #44A7DA; font-weight : bold"><i class="fas fa-user-tie"></i> Đối tượng chịu phí</p>
         </div>
     </div>
     <div style="color: #C4C4C4;" class="column-transaction-info-mini">
-        <div style="clear : both;">
+        <div style="clear : both; ">
             <div class="alignleft">
                 <label class="radio-inline">
-                    <input type="radio" name="optradio" checked>Người chuyển
+                    <input type="radio" name="optradio" checked >&emsp;Người chuyển
                   </label>
             </div>
             <div class="alignright">
                 <label class="radio-inline">
-                    <input type="radio" name="optradio">Người nhận
+                    <input type="radio" name="optradio">&emsp;Người nhận
                   </label>
             </div>
               
@@ -108,9 +108,9 @@ function Transaction(){
     </div>
     <div style="color: #C4C4C4;" class="column-transaction-info-mini">
         <div style="clear : both;">
-            <p class="alignleft">Nội dung giao dịch</p>
+            <p class="alignleft" style = "color : #44A7DA; font-weight : bold"><i class="fas fa-clipboard"></i> Nội dung giao dịch</p>
             <div class="alignright">
-                <input type="radio" name="gender" value="male" checked>Chuyển tiền<br>
+                <input type="radio" name="gender" value="male" checked>&emsp;Chuyển tiền<br>
             </div> 
             
         </div>
