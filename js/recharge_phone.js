@@ -17,15 +17,15 @@ function Recharge(){
         <p class="alignright" style=" font-weight:bold; color : #EE2E2E">2,000,000 VND</p>
     </div>
 
-    <div class="column-recharge" style="width: 100%;">
+    <div class="column-recharge-2" ">
         <p>Số điện thoại được nạp</p>
         <div>
         <input type="text" id="input-phone-number" name="firstname" placeholder="Số điện thoại">
-        <button class = "button" style="background-color: white; "onclick = "changePhoneNumber(5)"><i class="far fa-address-book" style = "color : red" ></i></button>    
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(1)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Phúc</button>    
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(2)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Khoa</button>
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(3)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Minh</button>
-        <button class = "button" style="float: right;" onclick = "changePhoneNumber(4)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Khiêm</button>
+        <button class = "button-recharge" style="background-color: white; "onclick = "changePhoneNumber(5)"><i class="far fa-address-book" style = "color : red" ></i></button>    
+        <button class = "button-recharge" style="float: right;" onclick = "changePhoneNumber(1)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Phúc</button>    
+        <button class = "button-recharge" style="float: right;" onclick = "changePhoneNumber(2)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Khoa</button>
+        <button class = "button-recharge" style="float: right;" onclick = "changePhoneNumber(3)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Minh</button>
+        <button class = "button-recharge" style="float: right;" onclick = "changePhoneNumber(4)"><img class="img-recharge-phone" src="images/img.jpg" >&ensp;Khiêm</button>
         
         
         </div>

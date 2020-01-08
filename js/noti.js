@@ -31,7 +31,7 @@ function Transaction(){
                 </div>
                 <div class = "center">
                     <div style="color: #C4C4C4;" class="break-word-trans">
-                        <i class="fas fa-sign-in-alt"></i> &emsp;22/11/2019     
+                        <i class="fas fa-sign-in-alt"></i>&emsp;22/11/2019     
                         <div style="color: black;"><i class="far fa-money-bill-alt"></i>&emsp;Qúy khách đã chuyển số tiền 2.000.000 đến tài khoản 15220000012451. Số dư còn lại: 1.500.000. Số điên thoại hỗ trợ: 1900 1000</div>
                         <hr class="line">
                     </div>
@@ -114,7 +114,7 @@ function Notification(){
                 <div class = "noti-icon" > <i class="fas fa-bullhorn"></i></div>
             
                 <div style="color: black;">Cập nhật thông tin BSMS đối với các thuê bao chuyển mạng giữ số </div>
-                </br></br></br>
+                </br></br>
                 22/11/2019
             </div>
         </div>
