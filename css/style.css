@@ -217,7 +217,7 @@
 
     .container-btn {
         position: relative;
-        margin-top: 1.5em;
+        margin-top: 1em;
         /* left: -6.25em; */
 
         width: fit-content;
@@ -231,8 +231,8 @@
         width: auto;
         height: 0px;
 
-        position: relative;
-        top: 1em;
+        /* position: relative;
+        top: 1em; */
     }
     
     .wrap2 {
@@ -243,8 +243,8 @@
         height: 0px;
 
         position: relative;
-        left: 9.3em;
-        top: 10.5em;
+        left: 8.25em;
+        top: 8.3em;
     }
     
     .wrap3 {
@@ -255,14 +255,14 @@
         height: 0px;
 
         position: relative;
-        top: 20em;
+        top: 16.8em;
     }
 
     .wrap-rhombus {
         display: flex;
         flex-direction: column;
-        width: 5.16em;
-        height: 5.16em;
+        width: 4.5em;
+        height: 4.5em;
         transform: rotate(45deg);
 
         border: 0.08em solid #44A7DA;
@@ -270,7 +270,7 @@
 
         text-align: center;
         justify-content: center;
-        margin: 2em;
+        margin: 1.5em;
         margin-left: 2.66em;
         box-shadow: 0.08em 0.08em 0.13em rgba(68, 167, 218, 0.52);
         color: #44A7DA;
@@ -297,21 +297,23 @@
         height: 80px;
         background: white;
         margin: 20px;
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
         float: left;
-        border: 2.5px solid #44A7DA;
+        border: 2px solid #44A7DA;
         border-radius: 11px;
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
+        box-shadow: 0.08em 0.08em 0.13em rgba(68, 167, 218, 0.52);
     }
     
     .rhombus-mini:hover {
-        background: #f6f0e3;
+        background: rgba(68, 167, 218, 0.2);
+        text-decoration: none;
     }
     
     .rhombus-mini p {
-        transform: rotate(45deg) ;
+        transform: rotate(-45deg) ;
         text-align: center;
     }
     
@@ -404,7 +406,8 @@
     }
     
     .account:hover {
-        background: #f6f0e3;
+        background: rgba(68, 167, 218, 0.2);
+        /* text-decoration: none; */
     }
     
     .account p {
@@ -442,7 +445,8 @@
     }
     
     .account-info-2:hover {
-        background: #f6f0e3;
+        background: rgba(68, 167, 218, 0.2);
+        /* text-decoration: none; */
     }
 
     .column-history {
@@ -902,6 +906,38 @@
         justify-content: center; 
         padding: 0.7em;
     }
+    /* Beneficiaries */
+
+    .column-beneficiaries{
+        border: 0.2em solid #44A7DA;
+        background-color: rgba(68,167,218,0.1);
+        float: left;
+        width: 95%;
+        padding: 0.7em;
+        margin: 0.3em;
+        /* height: 200px; */
+        /* box-shadow: 2px 2px gray; */
+    }
+
+    .column-beneficiaries-mini{
+        border:0.05em solid #44A7DA;
+        width: 95%;
+        margin: 1em;
+        height: 1.6em;
+        border-radius: 0.3em;
+        background-color: #44A7DA;
+    }
+
+    .dot {
+        height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+      }
+    
+   
     /* Responsive */
 
     @media screen and (max-width: 1200px){
@@ -1105,7 +1141,8 @@
         }
         
         .rhombus-mini:hover {
-            background: #f6f0e3;
+            background: rgba(68, 167, 218, 0.2);
+        /* text-decoration: none; */
         }
         
         .rhombus-mini p {
