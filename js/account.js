@@ -75,7 +75,8 @@ function HistoryTransaction(){
            
             <div class="center">
                 
-                <input type="email" placeholder="Search" class="column-history-search-text" required="required">
+                <input type="email" placeholder=" Search" class="column-history-search-text" required="required">
+                
                 <!-- <div style="color: #C4C4C4;" class="column-history-search">
                     
                 </div> -->

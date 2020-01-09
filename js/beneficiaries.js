@@ -9,34 +9,51 @@ function Recharge(){
             </li>
         </ul>
     </nav>
+
+    <div class="center">
+    <div class="input-container-beneficiaries">
+    <i class="fa fa-search icon-beneficiaries"></i>
+        <input class="input-field-beneficiaries" type="text" placeholder="Username" name="usrnm" style="width:80%">
+       
+        </div>
+    </div>
+    
+
+
 <div class="center">
-    <div class="column-beneficiaries" >
+        <div class="column-beneficiaries" >
         <div style="color: #C4C4C4;" class="column-beneficiaries-mini">
         <div style="clear : both;">
-            <p class="alignleft">Số tiền</p>
-            <p class="alignright">100,000 VND</p>
-        </div>
-        </div>
-        <div style="color: #C4C4C4;" class="column-beneficiaries-mini">
-        <div style="clear : both;">
-            <p class="alignleft">Số tiền</p>
-            <p class="alignright">100,000 VND</p>
+            <p class="alignright">0500 0000 12345</p>
+            <div class="badge" style = "background: #37DC94;">K</div>
+            <div class="badge-fake">&emsp;Khoa</div>
         </div>
         </div>
         <div style="color: #C4C4C4;" class="column-beneficiaries-mini">
         <div style="clear : both;">
-            <p class="alignleft">Số tiền</p>
-            <p class="alignright">100,000 VND</p>
+            <p class="alignright">0500 0000 12346</p>
+            <div class="badge" style = "background: #268AFF;">K</div>
+            <div class="badge-fake">&emsp;Khiêm Leo</div>
         </div>
         </div>
+        
         <div style="color: #C4C4C4;" class="column-beneficiaries-mini">
         <div style="clear : both;">
-        <span class="dot">K</span><p class="alignleft">Số tiền</p>
-            <p class="alignright">100,000 VND</p>
+            <p class="alignright">0500 0000 12347</p>
+            <div class="badge" style = "background: #FA5C65;">M</div>
+            <div class="badge-fake">&emsp;Minh Heo</div>
         </div>
         </div>
 
-    </div>
+        <div style="color: #C4C4C4;" class="column-beneficiaries-mini">
+        <div style="clear : both;">
+            <p class="alignright">0500 0000 12348</p>
+            <div class="badge" style = "background: #FD9A28;">P</div>
+            <div class="badge-fake">&emsp;Phúc</div>
+        </div>
+        </div>
+
+        </div>
 </div>
             `
 }
