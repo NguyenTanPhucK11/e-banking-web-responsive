@@ -1,27 +1,29 @@
 
 window.onload = Account();
-function Account(){
+function Account() {
     document.querySelector("#Account").innerHTML = `
     <div class = "center">
         <div class="account" onclick="AccountInfo()">
-            <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Truy vấn thông tin tài khoản&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
+            <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Truy vấn thông tin tài khoản&emsp;&emsp;</p>
+            <i class="fa fa-arrow-right"></i>
         </div>  
     </div>
 
     <div class = "center">
         <div class="account" onclick="HistoryTransaction()">
-            <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Lịch sử giao dịch&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
+            <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Lịch sử giao dịch&emsp;&emsp;</p>
+            <i class="fa fa-arrow-right"></i>
         </div>  
     </div>
     
             `
 }
 
-function AccountInfo(){
-    document.querySelector("#Account").innerHTML =`
+function AccountInfo() {
+    document.querySelector("#Account").innerHTML = `
     <nav class="tm-nav">
     <ul>
-        <li >
+        <li>
             <a onclick = "Account()"><span class="tm-nav-deco"></span>Quay lại</a>
         </li>
     </ul>
@@ -60,8 +62,8 @@ function AccountInfo(){
     </div> 
 </div>`
 }
-function HistoryTransaction(){
-    document.querySelector("#Account").innerHTML =`
+function HistoryTransaction() {
+    document.querySelector("#Account").innerHTML = `
     <nav class="tm-nav">
     <ul>
         <li >
@@ -88,7 +90,7 @@ function HistoryTransaction(){
             </div>
             <div style="clear : both;">
                 <p class="alignleft">Chuyển khoản cho</p>
-                <p class="alignright">18110000028436</p>
+                <p class="alignright-bold">18110000028436</p>
             </div>
             <div style="clear : both;">
                 <p class="alignleft">Số tiền</p>
@@ -102,7 +104,7 @@ function HistoryTransaction(){
             </div>
             <div style="clear : both;">
                 <p class="alignleft">Chuyển khoản cho</p>
-                <p class="alignright">18110000028436</p>
+                <p class="alignright-bold">18110000028436</p>
             </div>
             <div style="clear : both;">
                 <p class="alignleft">Số tiền</p>
@@ -116,7 +118,7 @@ function HistoryTransaction(){
             </div>
             <div style="clear : both;">
                 <p class="alignleft">Chuyển khoản cho</p>
-                <p class="alignright">18110000028436</p>
+                <p class="alignright-bold">18110000028436</p>
             </div>
             <div style="clear : both;">
                 <p class="alignleft">Số tiền</p>
@@ -131,8 +133,8 @@ function HistoryTransaction(){
     `
 }
 
-function AccountInfoPay(){
-    document.querySelector("#Account").innerHTML =`
+function AccountInfoPay() {
+    document.querySelector("#Account").innerHTML = `
     <nav class="tm-nav">
         <ul>
             <li class="active">
@@ -152,32 +154,32 @@ function AccountInfoPay(){
            
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
-                <p class="alignleft">Tên tài khản</p>
+                <p class="alignleft">Tên tài khoản</p>
                 <p class="alignright">VU GIA KHIEM</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Số tài khoản</p>
-                <p class="alignright">18110000028436</p>
+                <p class="alignright-bold">18110000028436</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Số dư hiện tại</p>
-                <p class="alignright">2,000,000 VND</p>
+                <p class="alignright-red">2,000,000 VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Số dư khả dụng</p>
-                <p class="alignright">2,000,000 VND</p>
+                <p class="alignright-red">2,000,000 VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Tiền phong tỏa</p>
-                <p class="alignright">100,000 VND</p>
+                <p class="alignright-red">100,000 VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
@@ -199,8 +201,8 @@ function AccountInfoPay(){
     `
 }
 
-function AccountInfoSaving(){
-    document.querySelector("#Account").innerHTML =`
+function AccountInfoSaving() {
+    document.querySelector("#Account").innerHTML = `
     <nav class="tm-nav">
         <ul>
             <li >
@@ -227,7 +229,7 @@ function AccountInfoSaving(){
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Số tài khoản</p>
-                <p class="alignright">18110000028436</p>
+                <p class="alignright-bold">18110000028436</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
@@ -245,25 +247,25 @@ function AccountInfoSaving(){
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Lãi suất</p>
-                <p class="alignright">3,000,000 VND</p>
+                <p class="alignright-red">3,000,000 VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Số tiền gốc</p>
-                <p class="alignright">100,000,000VND</p>
+                <p class="alignright-red">100,000,000VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Tiền thực hưởng</p>
-                <p class="alignright">3,000,000VND</p>
+                <p class="alignright-red">3,000,000VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Tiền lãi cuối kì</p>
-                <p class="alignright">3,000,000VND</p>
+                <p class="alignright-red">3,000,000VND</p>
             </div>
         </div>
        
@@ -274,8 +276,8 @@ function AccountInfoSaving(){
     `
 }
 
-function AccountInfoLoan(){
-    document.querySelector("#Account").innerHTML =`
+function AccountInfoLoan() {
+    document.querySelector("#Account").innerHTML = `
     <nav class="tm-nav">
         <ul>
             <li >
@@ -296,7 +298,7 @@ function AccountInfoLoan(){
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Mã giao dịch</p>
-                <p class="alignright">345892</p>
+                <p class="alignright-bold">345892</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
@@ -308,7 +310,7 @@ function AccountInfoLoan(){
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Số tiền GD</p>
-                <p class="alignright">300,000 VND</p>
+                <p class="alignright-red">300,000 VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4; " class="column-account-info-pay">

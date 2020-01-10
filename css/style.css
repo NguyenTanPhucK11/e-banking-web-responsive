@@ -103,7 +103,7 @@
 
     .alignleft{
         font-weight: normal;
-        color: black;
+        color: #44A7DA;;
         float: left;
         margin: 0.3em;
     }
@@ -112,6 +112,19 @@
         color: black;
         float: right;
         margin: 0.3em
+    }
+
+    .alignright-bold{
+        font-weight: bold;
+        color: black;;
+        float: right;
+        margin: 0.3em;
+    }
+
+    .alignright-red{
+        color: #EE2E2E;;
+        float: right;
+        margin: 0.3em;
     }
 
     .row:after {
@@ -394,26 +407,35 @@
     }
     
     .account {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+
+        padding-left: 2em;
+        padding-right: 2em;
+        
         text-align: center;
-        width: 90%;
+        width: 82%;
         height: 5em;
         background: white;
         margin: 2em;
         /* float: left; */
         border: 0.2em solid #44A7DA;
-        border-bottom-left-radius: 1em;
-        
+        border-bottom-left-radius: 1em; 
+
+        cursor: pointer;
     }
     
     .account:hover {
         background: rgba(68, 167, 218, 0.2);
-        /* text-decoration: none; */
+        text-decoration: none;
     }
     
-    .account p {
+    /* .account p {
         text-align: center;
         transform: translate(1em, 2em);
-    }   
+    }    */
 
     .account-info-1 {
         text-align: center;
@@ -442,6 +464,7 @@
         border: 0.18em solid #44A7DA;
         border-bottom-left-radius: 1em;
         
+        cursor: pointer;
     }
     
     .account-info-2:hover {
@@ -480,16 +503,16 @@
         margin: 1em;
         height: 5em;
         border-radius: 0.5em;
-        background-color: #C4C4C4;
+        background-color: #ECECF6;
     }
 
     .column-account-info-pay {
-        border:0.05em solid #44A7DA;
+        /* border: 0.05em solid #44A7DA; */
         width: 95%;
         margin: 1em;
         height: 1.5em;
-        border-radius: 0.5em;
-        background-color: #C4C4C4;
+        border-radius: 0.3em;
+        background-color: #ECECF6;
     }
 
     /* Page Notification */
@@ -1025,7 +1048,7 @@
     
         .alignleft{
             font-weight: normal;
-            color: black;
+            color: #44A7DA;
             float: left;
             margin: 0.3em;
         }
@@ -1289,7 +1312,7 @@
         }
     
         .column-account-info-pay {
-            border:0.05em solid #44A7DA;
+            /* border:0.05em solid #44A7DA; */
             width: 95%;
             margin: 1em;
             height: 1.5em;
