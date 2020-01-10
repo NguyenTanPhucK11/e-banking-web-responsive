@@ -2,13 +2,6 @@
 window.onload = Recharge();
 function Recharge(){
     document.querySelector("#Recharge").innerHTML = `
-    <nav class="tm-nav">
-        <ul>
-            <li >
-                <a onclick = "AcceptRecharge()"><span class="tm-nav-deco"></span>Tiếp tục</a>
-            </li>
-        </ul>
-    </nav>
 
     <div class="center">
     <div class="input-container-beneficiaries">

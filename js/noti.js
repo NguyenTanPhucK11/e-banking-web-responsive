@@ -1,4 +1,4 @@
-window.onload = Transaction();
+window.onload = Notification();
 function Transaction(){
     document.querySelector("#Noti").innerHTML = `
             <nav class="tm-nav">
@@ -63,7 +63,11 @@ function Promotion(){
                     </li>
                 </ul>
             </nav>
-            
+            <div class = "column-pro-all" >
+
+            <div class = "icon-left">
+                <i class="fas fa-caret-left fa-3x"></i>
+            </div>
 
             <div class="center">
                 <div style="color: #C4C4C4;" class="column-pro">
@@ -91,7 +95,12 @@ function Promotion(){
                     </br>
                     05/11/19 11:16:02
                 </div>
-            </div>`
+            </div>
+            <div class = "icon-right">
+            <i class="fas fa-caret-right fa-3x"></i>
+            </div>
+            </div>
+            `
 }
 
 function Notification(){
@@ -108,7 +117,7 @@ function Notification(){
       </li>
     </ul>
   </nav>
-
+        <div class = "column-noti-all">
         <div class = "center">
             <div style="color: #C4C4C4;" class="column-noti">
                 <div class = "noti-icon" > <i class="fas fa-bullhorn"></i></div>
@@ -136,14 +145,17 @@ function Notification(){
                 05/11/19  11:16:02
             </div>
         </div>
-        <div class = "center">
-            <div style="color: #C4C4C4;" class="column-noti">
-                <div class = "noti-icon" > <i class="fas fa-bullhorn"></i></div>
-                
-                <div style="color: black;">Tính năng mới: Tích điểm đổi quà - Navi Reward Ngay trên Navi-Bank</div>
-                </br></br>
-                05/11/19  11:16:02 
-            </div>
+        
         </div>
+        <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>
 `
 }

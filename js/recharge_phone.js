@@ -2,18 +2,11 @@
 window.onload = Recharge();
 function Recharge(){
     document.querySelector("#Recharge").innerHTML = `
-    <nav class="tm-nav">
-        <ul>
-            <li >
-                <a onclick = "AcceptRecharge()"><span class="tm-nav-deco"></span>Tiếp tục</a>
-            </li>
-        </ul>
-    </nav>
 <div class="center">
     <div style="color: black;" class="column-recharge">
-        <p style="color: black;"><i class="fas fa-university"></i> Số tài khoản</p>
-        <p class="center" style=" font-weight:bold; color: black">18110000028436</p>
-        <p style="color: black;"> &nbsp;<i class="fas fa-dollar-sign"></i>&nbsp;Số dư</p>
+        <p style="color: black;"><i class="fas fa-mobile-alt"></i> Số điện thoại</p>
+        <p class="center" style=" font-weight:bold; color: black">0974224812</p>
+        <p style="color: black;"> <i class="fas fa-dollar-sign"></i>&nbsp;Số dư</p>
         <p class="alignright" style=" font-weight:bold; color : #EE2E2E">2,000,000 VND</p>
     </div>
 
@@ -47,27 +40,22 @@ function Recharge(){
             <p onclick = "changeColor(7)" id = "changeColor7" class="recharge-money" style="float: left;">300.000</p>
             <p onclick = "changeColor(8)" id = "changeColor8" class="recharge-money" style="float: center;">500.000</p>
         </div>
-    
+        
+        </div>
+        
     </p>
 </div>
+        <div class = "button-recharge-phone">
+            <input type="button" class="button" value="Tiếp tục" onclick ="AcceptRecharge()">
+        </div>
             `
 }
 
 function AcceptRecharge(){
     document.querySelector("#Recharge").innerHTML =`
-    <nav class="tm-nav">
-        <ul>
-            <li >
-                <a href = "home.html"><span class="tm-nav-deco"></span>Tiếp tục</a>
-            </li>
-            <li >
-                <a onclick = "Recharge()"><span class="tm-nav-deco"></span>Trở lại</a>
-            </li>
-        </ul>
-    </nav>
     <div class="center">
         <div class="name-column">Xác nhận</div>
-        <div style="color: #C4C4C4;" class="column-history">
+        <div style="color: #C4C4C4;" class="column-accept-recharge">
            
         <div style="color: #C4C4C4;" class="column-recharge-phone">
             <div style="clear : both;">
@@ -113,9 +101,13 @@ function AcceptRecharge(){
         </div>
        
        
-        </div>
         
-    </div>`
+    </div>
+    <div class = "button-accept-recharge-phone">
+        <i class="fas fa-caret-left"></i><input type="button" class="button" value="Trở lại" onclick ="Recharge()">
+        <input type="button" class="button" value="Tiếp tục" onclick ="window.location.href='home.html'">&ensp;<i class="fas fa-caret-right"></i>
+    </div>
+    `
 }
 
 function changeColor(id){

@@ -41,7 +41,7 @@ function AccountInfo(){
     <div class="account-info-1" >
         <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Tài khoản tiết kiệm&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
     </div>  
-    <div class="account-info-2" >
+    <div class="account-info-2" onclick = "AccountInfoSaving()">
         <div style="clear : both;">
         <p class="alignleft">Số dư khả dụng</p>
         <p class="alignright">0.00</p>
@@ -49,7 +49,7 @@ function AccountInfo(){
     </div> 
 </div>
 <div class = "center">
-    <div class="account-info-1" >
+    <div class="account-info-1" onclick = "AccountInfoLoan()">
         <p><i class="fa fa-info-circle"></i>&emsp;&emsp;Tài khoản tiền vay&emsp;&emsp;<i class="fa fa-arrow-right"></i></p>
     </div>  
     <div class="account-info-2" >
@@ -187,7 +187,7 @@ function AccountInfoPay(){
                 <p class="alignright">VND</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-cnm">
             <div style="clear : both;">
                 <p class="alignleft">Chi nhánh mở</p>
                 <p class="alignright">NH TMCP DT PT VN - CN QUAN 9 SAI GON</p>
@@ -219,49 +219,49 @@ function AccountInfoSaving(){
         <div class="name-column">Thông tin tài khoản tiền vay</div>
         <div style="color: #C4C4C4;" class="column-history">
            
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Tên tài khoản</p>
                 <p class="alignright">VU GIA KHIEM</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Số tài khoản</p>
                 <p class="alignright">18110000028436</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Ngày mở</p>
                 <p class="alignright">01/11/2019 14:02:33</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Ngày đáo hạn</p>
                 <p class="alignright">01/11/2019 14:02:33</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Lãi suất</p>
                 <p class="alignright">3,000,000 VND</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Số tiền gốc</p>
                 <p class="alignright">100,000,000VND</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Tiền thực hưởng</p>
                 <p class="alignright">3,000,000VND</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-saving">
             <div style="clear : both;">
                 <p class="alignleft">Tiền lãi cuối kì</p>
                 <p class="alignright">3,000,000VND</p>
@@ -312,7 +312,7 @@ function AccountInfoLoan(){
                 <p class="alignright">300,000 VND</p>
             </div>
         </div>
-        <div style="color: #C4C4C4; " class="column-account-info-pay">
+        <div style="color: #C4C4C4; " class="column-account-info-pay-loan-1">
             <div style="clear : both;">
                 <p class="alignleft">Tài khoản ghi </p>
                 <p class="alignright">01/11/2019 14:02:33</p>
@@ -322,7 +322,7 @@ function AccountInfoLoan(){
                 <p class="alignright"></p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4;" class="column-account-info-pay-loan-2">
             <div style="clear : both;">
                 <p class="center" style="width: 10%;">Mô tả</p>
             </div>
