@@ -4,13 +4,13 @@ function Transaction(){
             <nav class="tm-nav">
                 <ul>
                   <li class="active">
-                    <a onclick = "Transaction()"><span class="tm-nav-deco"></span>Giao dịch</a>
+                    <a onclick = "Transaction()"><i class='fas fa-exchange-alt'></i> Giao dịch</a>
                   </li>
                   <li>
-                    <a onclick = "Promotion()"><span class="tm-nav-deco"></span>Khuyến mãi</a>
+                    <a onclick = "Promotion()"><i class='fas fa-cart-arrow-down'></i>Khuyến mãi</a>
                   </li> 
                   <li >
-                    <a onclick = "Notification()"><span class="tm-nav-deco"></span>Thông báo</a>
+                    <a onclick = "Notification()"><i class='fas fa-bell'></i>Thông báo</a>
                   </li>
                 </ul>
             </nav> 
@@ -53,13 +53,13 @@ function Promotion(){
     <nav class="tm-nav">
                 <ul>
                     <li>
-                        <a onclick = "Transaction()"><span class="tm-nav-deco"></span>Giao dịch</a>
+                        <a onclick = "Transaction()"><i class='fas fa-exchange-alt'></i>Giao dịch</a>
                     </li>
                     <li class="active">
-                        <a onclick = "Promotion()"><span class="tm-nav-deco"></span>Khuyến mãi</a>
-                    </li>
-                    <li>
-                        <a onclick = "Notification()"><span class="tm-nav-deco"></span>Thông báo</a>
+                        <a onclick = "Promotion()"><i class='fas fa-cart-arrow-down'></i> Khuyến mãi</a>
+                    </li> 
+                    <li >
+                        <a onclick = "Notification()"><i class='fas fa-bell'></i>Thông báo</a>
                     </li>
                 </ul>
             </nav>
@@ -70,25 +70,25 @@ function Promotion(){
             </div>
 
             <div class="center">
-                <div style="color: #C4C4C4;" class="column-pro">
+                <div style="color: #C4C4C4;" class="column-pro-1">
                 <img class = "column-pro-img" src="images/img.jpg" > 
 
                     <div style="color: black;">Đừng bỏ lỡ ! Cơ hội cuối để nhận 1 chiếc xe SUV SUBARU giá 1 tỷ đồng khi gia hạn K + 3 tháng. Số điện thoại hỗ trợ : 1900 1000</div>
 
                     22/11/2019
                 </div>
-            </div>
-            <div class="center">
-                <div style="color: #C4C4C4;" class="column-pro">
+
+
+                <div style="color: #C4C4C4;" class="column-pro-2">
                     <img class = "column-pro-img" src="images/img.jpg" > 
 
                     <div style="color: black;">Từ ngày 02/11 - 3-11 Mobifone tặng 50% giá trị thẻ nạp vào tài khoản khuyến mại. Không giới hạn số lần nạp</div>
                     </br>
                     05/11/19 11:16:02
                 </div>
-            </div>
-            <div class="center">
-                <div style="color: #C4C4C4;" class="column-pro">
+
+
+                <div style="color: #C4C4C4;" class="column-pro-3">
                     <img class = "column-pro-img" src="images/img.jpg" > 
 
                     <div style="color: black;">Quý khách đã thanh toán thành công số tiền 3,399,999 cho sản phẩm X. Số điện thoại hỗ trợ : 1900 1000</div>
@@ -106,20 +106,20 @@ function Promotion(){
 function Notification(){
     document.querySelector("#Noti").innerHTML = `<nav class="tm-nav">
     <ul>
-      <li >
-        <a onclick = "Transaction()"><span class="tm-nav-deco"></span>Giao dịch</a>
-      </li>
-      <li>
-        <a onclick = "Promotion()"><span class="tm-nav-deco"></span>Khuyến mãi</a>
-      </li> 
-      <li class="active">
-        <a onclick = "Notification()"><span class="tm-nav-deco"></span>Thông báo</a>
-      </li>
+        <li>
+            <a onclick = "Transaction()"><i class='fas fa-exchange-alt'></i>Giao dịch</a>
+        </li>
+        <li>
+            <a onclick = "Promotion()"><i class='fas fa-cart-arrow-down'></i>Khuyến mãi</a>
+        </li> 
+        <li class="active">
+            <a onclick = "Notification()"><i class='fas fa-bell'></i> Thông báo</a>
+        </li>
     </ul>
   </nav>
         <div class = "column-noti-all">
         <div class = "center">
-            <div style="color: #C4C4C4;" class="column-noti">
+            <div style="color: #C4C4C4;" class="column-noti-1">
                 <div class = "noti-icon" > <i class="fas fa-bullhorn"></i></div>
             
                 <div style="color: black;">Cập nhật thông tin BSMS đối với các thuê bao chuyển mạng giữ số </div>
@@ -128,7 +128,7 @@ function Notification(){
             </div>
         </div>
         <div class = "center">
-            <div style="color: #C4C4C4;" class="column-noti">
+            <div style="color: #C4C4C4;" class="column-noti-2">
                 <div class = "noti-icon" > <i class="fas fa-bullhorn"></i></div>
             
                 <div style="color: black;">Biểu phí và hạn mức Ngân hàng điện tử    (áp dụng từ ngày 15/10/2019)</div>
@@ -137,7 +137,7 @@ function Notification(){
             </div>
         </div>
         <div class = "center">
-            <div style="color: #C4C4C4;" class="column-noti">
+            <div style="color: #C4C4C4;" class="column-noti-3">
                 <div class = "noti-icon" > <i class="fas fa-bullhorn"></i></div>
                 
                 <div style="color: black;">Tính năng mới: Tích điểm đổi quà - Navi Reward Ngay trên Navi-Bank</div>

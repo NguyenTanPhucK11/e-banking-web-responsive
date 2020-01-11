@@ -4,7 +4,7 @@ function InterestVND(){
     <nav class="tm-nav">
     <ul>
         <li class="active">
-            <a onclick = "InterestVND()"><span class="tm-nav-deco"></span>Lãi xuất tiền gửi VND</a>
+            <a onclick = "InterestVND()"><span class="tm-nav-deco"></span> Lãi xuất tiền gửi VND</a>
         </li>
         <li>
             <a onclick = "InterestDollars()"><span class="tm-nav-deco"></span>Lãi xuất tiền gửi Dollars</a>
@@ -92,7 +92,7 @@ function InterestDollars(){
             <a onclick = "InterestVND()"><span class="tm-nav-deco"></span>Lãi xuất tiền gửi VND</a>
         </li>
         <li class="active">
-            <a onclick = "InterestDollars()"><span class="tm-nav-deco"></span>Lãi xuất tiền gửi Dollars</a>
+            <a onclick = "InterestDollars()"><span class="tm-nav-deco"></span> Lãi xuất tiền gửi Dollars</a>
         </li>
         <li>
             <a onclick = "FindMap()"><span class="tm-nav-deco"></span>Tìm kiếm ATM</a>
@@ -115,9 +115,9 @@ function InterestDollars(){
                 <div class="grid-item-name">LĨNH LÃI HÀNG THÁNG(%/NĂM)</div>  
     
                 <div class="grid-item">Không kỳ hạn</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>  
-                <div class="grid-item"></div>
+                <div class="grid-item">0,5</div>
+                <div class="grid-item">02,5</div>  
+                <div class="grid-item">1</div>
                 <div class="grid-item">0,80</div>
                 <div class="grid-item"></div>  
     
@@ -136,7 +136,7 @@ function InterestDollars(){
                 <div class="grid-item">4,94</div>  
     
                 <div class="grid-item-1">6 tháng</div>
-                <div class="grid-item-1">7,10</div>
+                <div class="grid-item-1">1,10</div>
                 <div class="grid-item-1"></div>  
                 <div class="grid-item-1"></div>
                 <div class="grid-item-1">6,96</div>
@@ -180,7 +180,7 @@ function FindMap(){
             <a onclick = "InterestDollars()"><span class="tm-nav-deco"></span>Lãi xuất tiền gửi Dollars</a>
         </li>
         <li  class="active">
-            <a onclick = "FindMap()"><span class="tm-nav-deco"></span>Tìm kiếm ATM</a>
+            <a onclick = "FindMap()"><span class="tm-nav-deco"></span> Tìm kiếm ATM</a>
         </li>
         <li>
             <a onclick = "ExchangeRate()"><span class="tm-nav-deco"></span>Tỷ giá ngoại lệ</a>
@@ -211,7 +211,7 @@ function ExchangeRate(){
             <a onclick = "FindMap()"><span class="tm-nav-deco"></span>Tìm kiếm ATM</a>
         </li>
         <li  class="active">
-            <a onclick = "ExchangeRate()"><span class="tm-nav-deco"></span>Tỷ giá ngoại lệ</a>
+            <a onclick = "ExchangeRate()"><span class="tm-nav-deco"></span> Tỷ giá ngoại lệ</a>
         </li>
         <li>
             <a onclick = "ExchangeInfo()"><span class="tm-nav-deco"></span>Trao đổi thông tin</a>
@@ -220,85 +220,85 @@ function ExchangeRate(){
 </nav>
     <div class="center-utilities">
     <div class="grid-container-rechange-rate" >
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);"></div>
-        <div class="grid-item-rechange-rate">Mã NT</div>
-        <div class="grid-item-rechange-rate">Mua CK</div>  
-        <div class="grid-item-rechange-rate">Mua MT</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">Bán</div>
+        <div class="grid-item-rechange-rate-header" style="border-left: 0.2em solid #44A7DA;"></div>
+        <div class="grid-item-rechange-rate-header">Mã NT</div>
+        <div class="grid-item-rechange-rate-header">Mua CK</div>  
+        <div class="grid-item-rechange-rate-header">Mua MT</div>
+        <div class="grid-item-rechange-rate-header" style="border-right: 0.2em solid #44A7DA;">Bán</div>
 
 
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/American.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">USD<sub>1</sub></div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div>
 
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/American.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">USD<sub>2</sub></div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div> 
 
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/American.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">USD<sub>3</sub></div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div> 
         
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/Kingdom.png" alt="">
         </div>
         <div class="grid-item-rechange-rate">GBP</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div> 
         
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/Hong_Kong.png" alt="">
         </div>
         <div class="grid-item-rechange-rate">HKD</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div>
         
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/Japan.png" alt="">
         </div>
         <div class="grid-item-rechange-rate">JPY</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div>
 
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/Formosa.jpg" alt="">
         </div>
         <div class="grid-item-rechange-rate">THB</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div> 
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div> 
         
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/Australia.png" alt="">
         </div>
         <div class="grid-item-rechange-rate">AUD</div>
         <div class="grid-item-rechange-rate">23,140.00</div>  
         <div class="grid-item-rechange-rate">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-right: 0.2em solid #44A7DA;">23,260.00</div>
 
         
-        <div class="grid-item-rechange-rate" style="border-left: 0.05em solid rgba(0, 0, 0, 0.8);border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">
+        <div class="grid-item-rechange-rate" style="border-left: 0.2em solid #44A7DA;border-bottom: 0.2em solid #44A7DA;">
             <img class = "img-utilities" src="images/countries/Canada.jpg" alt="">
         </div>
-        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">CAD</div>
-        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">23,140.00</div>  
-        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);">23,140.00</div>
-        <div class="grid-item-rechange-rate" style="border-bottom: 0.05em solid rgba(0, 0, 0, 0.8); border-right: 0.05em solid rgba(0, 0, 0, 0.8);">23,260.00</div>
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.2em solid #44A7DA;">CAD</div>
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.2em solid #44A7DA;">23,140.00</div>  
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.2em solid #44A7DA;">23,140.00</div>
+        <div class="grid-item-rechange-rate" style="border-bottom: 0.2em solid #44A7DA; border-right: 0.2em solid #44A7DA;">23,260.00</div>
         
     </div>
 </div>
@@ -324,15 +324,16 @@ function ExchangeInfo(){
             <a onclick = "ExchangeRate()"><span class="tm-nav-deco"></span>Tỷ giá ngoại lệ</a>
         </li>
         <li  class="active">
-            <a onclick = "ExchangeInfo()"><span class="tm-nav-deco"></span>Trao đổi thông tin</a>
+            <a onclick = "ExchangeInfo()"><span class="tm-nav-deco"></span> Trao đổi thông tin</a>
         </li>
     </ul>
 </nav>
     <div class = "center">
         <div class="exchange-info-1"  >
-            <p>Truy vấn thông tin tài khoản</p>
+            <p>Hotline: 19001000</p>
         </div>  
-        <textarea class="exchange-info-2" name="text" cols="40" rows="5" placeholder="Nhập văn bản"></textarea> 
+        <div clas="exchange-info-2"></div>
+        <textarea class="exchange-info-3" name="text" cols="40" rows="2" placeholder="Nhập văn bản"></textarea> 
         
        
         

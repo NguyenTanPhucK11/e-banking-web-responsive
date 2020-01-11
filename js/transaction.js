@@ -1,5 +1,5 @@
 window.onload = Transaction();
-function Transaction(){
+function Transaction() {
     document.querySelector("#Transaction").innerHTML = `
 
 <div class="row">
@@ -9,32 +9,32 @@ function Transaction(){
            
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft"><i class="fas fa-user-tie"></i> Tên chủ tài khoản</p>
+                <p class="alignleft-black"><i class="fas fa-user-tie"></i> Tên chủ tài khoản</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft" style="text-decoration: underline;">VU GIA KHIEM</p>
+                <p class="alignleft">&nbsp;VU GIA KHIEM</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft"> <i class="fas fa-university"></i> Tài khoản nguồn</p>
+                <p class="alignleft-black"> <i class="fas fa-university"></i> Tài khoản nguồn</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft" style="text-decoration: underline;">18110000028436</p>
+                <p class="alignleft">18110000028436</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft"><i class="fas fa-dollar-sign"></i>&nbsp;Số dư</p>
+                <p class="alignleft-black"><i class="fas fa-dollar-sign"></i>&nbsp;Số dư</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignright" style = "color : red; font-weight : bold">2.000.000 VND</p>
+                <p class="alignright" style = "color : red; font-weight : bold; font-size:23px; margin-top:0.2em ">2.000.000 VND</p>
             </div>
         </div>
        
@@ -42,26 +42,26 @@ function Transaction(){
     </div>
     <div>
         <div class="name-column-transaction-benefit">Tài khoản thụ hưởng</div>
-        <div style="color: #C4C4C4;" class="column-transaction">
+        <div style="color: #C4C4C4;" class="column-transaction-1">
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft"><i class="fas fa-user-tie"></i> Tên tài khoản thụ hưởng</p>
+                <p class="alignleft-black"><i class="fas fa-user-tie"></i> Tên tài khoản thụ hưởng</p>
             </div>
         </div>
 
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft" style="text-decoration: underline;">TRAN DUY MINH</p>
+                <p class="alignleft">TRAN DUY MINH</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft"><i class="fas fa-university"></i> Tài khoản thụ hưởng</p>
+                <p class="alignleft-black"><i class="fas fa-university"></i> Tài khoản thụ hưởng</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
             <div style="clear : both;">
-                <p class="alignleft" style="text-decoration: underline;">31410003035831</p>
+                <p class="alignleft">31410003035831</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-transaction-info-mini">
@@ -74,11 +74,11 @@ function Transaction(){
     </div>
   </div>
   <div class="center">
-    <div class="name-column-transaction-info">Tài khoản thụ hưởng</div>
+    <div class="name-column-transaction-info">Thông tin chuyển tiền</div>
     <div style="color: #C4C4C4;" class="column-transaction-info">
     <div style="color: #C4C4C4;" class="column-transaction-info-mini">
         <div style="clear : both;">
-            <p class="alignleft">Số tiền</p>
+            <p class="alignleft" style = "color : #44A7DA; font-weight : bold;"><i class='fas fa-coins'></i> Số tiền</p>
         </div>
     </div>
     <div class = "column-transaction-info-mini-money">
@@ -88,7 +88,7 @@ function Transaction(){
     </div>
     <div style="color: #C4C4C4;" class="column-transaction-info-mini">
         <div style="clear : both;">
-            <p class="alignleft" style = "color : #44A7DA; font-weight : bold"><i class="fas fa-user-tie"></i> Đối tượng chịu phí</p>
+            <p class="alignleft" ><i class="fas fa-user-tie"></i> Đối tượng chịu phí</p>
         </div>
     </div>
     <div style="color: #C4C4C4;" class="column-transaction-info-mini">
@@ -101,7 +101,7 @@ function Transaction(){
             <div class="alignright">
                 <label class="radio-inline">
                     <input type="radio" name="optradio">&emsp;Người nhận
-                  </label>
+                </label>
             </div>
               
         </div>
@@ -110,7 +110,9 @@ function Transaction(){
         <div style="clear : both;">
             <p class="alignleft" style = "color : #44A7DA; font-weight : bold"><i class="fas fa-clipboard"></i> Nội dung giao dịch</p>
             <div class="alignright">
-                <input type="radio" name="gender" value="male" checked>&emsp;Chuyển tiền<br>
+                <label class="radio-inline" style = "position: relative; top:-10px">
+                <input type="radio" name="gender" value="male" checked >&emsp;Chuyển tiền
+                </label>
             </div> 
             
         </div>
@@ -118,29 +120,31 @@ function Transaction(){
     </div>
    
     </div>
-    <input type="button" class="button" value="Tiếp tục" onclick ="TransactionInfo()">
 </div>
 
+    <div class = "button-recharge-phone" style="padding-top:0em">
+            <input type="button" class="button" value="Tiếp tục" onclick ="TransactionInfo()">
+    </div>
 
             `
 }
 
-function TransactionInfo(){
+function TransactionInfo() {
     document.querySelector("#Transaction").innerHTML = `
     <div class="center">
         <div class="name-column">Thông tin tài khoản tiền vay</div>
-        <div style="color: #C4C4C4; height: 370px;" class="column-history">
+        <div style="color: #C4C4C4;" class="column-history">
            
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Tên người thụ hưởng</p>
-                <p class="alignright">TRAN DUY MINH</p>
+                <p class="alignright-bold">TRAN DUY MINH</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Tài khoản thụ hưởng</p>
-                <p class="alignright">31410003035831</p>
+                <p class="alignright-bold">31410003035831</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
@@ -152,7 +156,7 @@ function TransactionInfo(){
         <div style="color: #C4C4C4;" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Số tiền</p>
-                <p class="alignright">100,000 VND</p>
+                <p class="alignright-red-bold">100,000 VND</p>
             </div>
         </div>
         <div style="color: #C4C4C4;" class="column-account-info-pay">
@@ -173,23 +177,18 @@ function TransactionInfo(){
                 <p class="alignright">05/11/2019 21:46:25</p>
             </div>
         </div>
-        <div style="color: #C4C4C4;" class="column-account-info-pay">
+        <div style="color: #C4C4C4; height:3.5em" class="column-account-info-pay">
             <div style="clear : both;">
                 <p class="alignleft">Nội dung</p>
                 <p class="alignright">Chuyển tiền</p>
             </div>
-        </div>
-        <div class="center" >
-            <div style="clear : both;">
-                <p class="alignleft"><input type="button" class="button" value="    Huỷ    " onclick = "Transaction()"></p>
-                <p class="alignleft"><input type="button" class="button" value="Tiếp tục"></p>
-            </div>
-            
-            
-        </div>
+        </div>      
         
-        </div>
-        
+    </div>
+
+    <div class = "button-accept-recharge-phone">
+        <input type="button" class="button" value="Trở lại" onclick ="Transaction()">
+        <input type="button" class="button" value="Xác nhận" onclick ="window.location.href='home.html'">
     </div>
             `
 }
