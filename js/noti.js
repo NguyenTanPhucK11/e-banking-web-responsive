@@ -1,4 +1,4 @@
-window.onload = Notification();
+window.onload = Transaction();
 function Transaction(){
     document.querySelector("#Noti").innerHTML = `
             <nav class="tm-nav">
